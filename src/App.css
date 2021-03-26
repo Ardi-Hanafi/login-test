@@ -1,0 +1,103 @@
+
+.btn {
+  white-space: nowrap;
+}
+.iconHeader {
+  max-height: 30px;
+  max-width: 30px;
+}
+span.textRed {
+  color: #ff1616;
+  font-weight: bold;
+}
+p.textRed {
+  color: #ff1616;
+}
+/* AUTH PAGE */
+.bg {
+    position: fixed;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(59,97,172,1) 0%, rgba(108,214,209,1) 100%);
+}
+.wadah {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.116);
+  padding: 30px;
+  margin: auto;
+  width: 350px; 
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+}
+.containerAll {
+    height: 100%; width: 100%;
+    padding: auto;
+}
+.containerAuth {
+  display: flex;
+  width: 100%; height: 100vh;
+}
+.textWarna {
+  color: #fffffff3;
+}
+.textLogReg {
+  color: #ffffff;
+  margin: 0;
+}
+.textLogReg:hover {
+  color: #495057;
+}
+.textEdit {
+  width:'100%';
+  text-align: center;
+}
+.textRed {
+  color: #ff1616;
+}
+.show {
+  color: #fffffff3;
+}
+.hide {
+  display: none;
+}
+
+/* TABLE DATA */
+.containerTitle {
+  display: flex;
+  width: 100%; 
+  padding: 0;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.tengah {
+  text-align: center;
+  margin: 0;
+}
+
+/* MODAL DELETE */
+.textModal {
+  color: #495057;
+}
+
+
+.container-btn {
+  padding: 2px;
+  background: linear-gradient(90deg, rgba(61,146,232,1) 0%, rgba(49,239,124,1) 100%);
+  width: 20%;
+  border-radius: 6px;
+}
+.btn-cuss {
+  width: 100%;
+  background: #ffffff;
+  color: rgba(61,146,232,1);
+}
+.btn-cuss:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+.btn-cuss span {
+  font-weight: 500;
+}
